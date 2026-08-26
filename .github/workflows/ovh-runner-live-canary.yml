@@ -1,6 +1,7 @@
 name: OVH runner live canary
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened, reopened, synchronize]
     paths:
